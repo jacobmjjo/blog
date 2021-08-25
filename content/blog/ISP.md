@@ -1,6 +1,6 @@
 ---
 title: "ISP와 프로토콜"
-date: 2021-08-25T23:10:00+09:00
+date: 2019-08-31T23:10:00+09:00
 slug: ""
 description: ""
 keywords: []
