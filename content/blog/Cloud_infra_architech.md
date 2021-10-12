@@ -1,5 +1,5 @@
 ---
-title: "Cloud_infra_architech"
+title: "클라우드로 인프라 구성할때.... 개념"
 date: 2020-01-09T21:18:07+09:00
 slug: ""
 description: ""
