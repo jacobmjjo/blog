@@ -5,7 +5,7 @@ slug: ""
 description: ""
 keywords: []
 draft: true
-tags: ["Networks"]
+tags: ["Network"]
 math: false
 toc: false
 ---
