@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IT-지식 on josephmjjo</title>
+    <link>https://josephmjjo.github.io/tags/it-%EC%A7%80%EC%8B%9D/</link>
+    <description>Recent content in IT-지식 on josephmjjo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Wed, 25 Sep 2019 23:29:08 +0900</lastBuildDate><atom:link href="https://josephmjjo.github.io/tags/it-%EC%A7%80%EC%8B%9D/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IT 용어정리</title>
+      <link>https://josephmjjo.github.io/blog/it_trend_word/</link>
+      <pubDate>Wed, 25 Sep 2019 23:29:08 +0900</pubDate>
+      
+      <guid>https://josephmjjo.github.io/blog/it_trend_word/</guid>
+      <description>쿠버네티스 VM 대신 컨테이너를 많이 쓴다고 한다. 그 이유는 VM과 달리 OS가 포함되지 않아 가볍다. 없는 os는 호스트 os를 공유하는 것으로 대체한다.
+장점으로는
+  8이미지 생성이 빠르고 쉽고 효율적이다. (필자도 까는게 너무 쉬워서 분명 다 깔았는데 안 깐줄 알고 의심 했을 정도다.)
+  안정적이고 주기적으로 컨테이너 이미지를 빌드해서 배포 가능하다. 게다가 빠르고 쉽게 롤백할 수 있다.
+  클라우드 및 OS 배포판 간 이식성이 높다.
+  자원 사용량: 고효율, 고집적</description>
+    </item>
+    
+  </channel>
+</rss>

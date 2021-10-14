@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud on josephmjjo</title>
+    <link>https://josephmjjo.github.io/tags/cloud/</link>
+    <description>Recent content in Cloud on josephmjjo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Thu, 09 Jan 2020 21:18:07 +0900</lastBuildDate><atom:link href="https://josephmjjo.github.io/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>클라우드로 인프라 구성할때.... 개념</title>
+      <link>https://josephmjjo.github.io/blog/cloud_infra_architech/</link>
+      <pubDate>Thu, 09 Jan 2020 21:18:07 +0900</pubDate>
+      
+      <guid>https://josephmjjo.github.io/blog/cloud_infra_architech/</guid>
+      <description>시스템 구성 예
+ 소규모 웹 서비스 로드 밸런서 웹 서버 x 2 DB 서버 x 1~ 2  보통 부하를 줄이려고 밸런싱을 함
+하지만 이번 경우는 부하를 경감하는 것보다 가용성 때문임
+DB는 중지되지 않는 구성을 만들기가 쉽지 않음 레코드가 계속 갱신 되기 때문임
+또한 DB로 세션 정보를 관리하는 경우, 세션 정보를 유지한 채로 Act/Sby를 해야함
+예를 들면 쇼핑 사이트에 있는 장바구니를 생각하면 됨
+해결 방안은
+ DB 서버의 레플리케이션 기술로 확장 DB 이외의 위치에 데이터 레플리케이션하기  레플리케이션이란 데이터 저장과 백업하는 방법과 관련이 있는 데이터를 호스트 컴퓨터에서 다른 컴퓨터로 복사하는 것 (위키백과)   애플리케이션 수정으로 세션 정보 공유하기  장애 지점은 장애가 발생할 수 있는 장소, 장비, 애플리케이션 등을 말합니다.</description>
+    </item>
+    
+    <item>
+      <title>Serverless</title>
+      <link>https://josephmjjo.github.io/blog/serverless/</link>
+      <pubDate>Sun, 06 Oct 2019 00:27:48 +0900</pubDate>
+      
+      <guid>https://josephmjjo.github.io/blog/serverless/</guid>
+      <description>Serverless 서버가 없다는 뜻이 아님
+단지 가상머신에 서버 설치후 서버를 관리할 필요가 없다는 뜻임
+서버 개수, 네트워크 종류, 서버 사양을 고려할 필요가 없음
+ Baas(Backend as as a Service) 서버확장, 보안성 등의 서버개발을 지원해줌.
+개발자들이 서버 개발 안해도 되고 서버의 이용자가 순식간에 늘어나도 알아서 확장 가능
+대표적으로 AWS Firebase가 있다.
+단점
+ 클라이언트 위주의 코드 비용 복잡한 쿼리 불가능함   FaaS(Function as a Service) FaaS는 프로젝트를 여러개의 함수로 쪼갬, 분산된 컴퓨팅 자원에 함수를 등록하고, 실행되는 횟수만큼 비용을 지불하는 방식</description>
+    </item>
+    
+    <item>
+      <title>Cloud 서비스 종류</title>
+      <link>https://josephmjjo.github.io/blog/cloud_%EC%A2%85%EB%A5%98/</link>
+      <pubDate>Sat, 14 Sep 2019 23:23:18 +0900</pubDate>
+      
+      <guid>https://josephmjjo.github.io/blog/cloud_%EC%A2%85%EB%A5%98/</guid>
+      <description>클라우드 컴퓨팅 서비스! 주요 3대 서비스로는
+ Software as a Service(SaaS) Platform as a Service(Paas) Infrastructure as a Service(IaaS)   SaaS(Software as a Service) 소프트웨어로서의 서비스 공급업체나 서비스 제공자에의 의해 호스트가 된 응용프로그램을 인터넷을 통해 고객에게 제공되는 소프트웨어 배포 모델이다.
+SaaS 는 SOA(Service Oriented Architecture) 나 웹 서비스를 지원하는 기술로 널리 제공되는 모델이 되고 있습니다. 인 이 서비스는 인터넷을 이용하는 전세계의 유저들이 사용할 수 있다.
+전통적으로, 소프트웨어 응용프로그램은 선결제를 유도하면서 컴퓨터의 설치의 필요성이 있었다.</description>
+    </item>
+    
+    <item>
+      <title>Cloud</title>
+      <link>https://josephmjjo.github.io/blog/cloud/</link>
+      <pubDate>Fri, 06 Sep 2019 23:13:28 +0900</pubDate>
+      
+      <guid>https://josephmjjo.github.io/blog/cloud/</guid>
+      <description>클라우드 컴퓨팅이란? 클라우드 컴퓨팅이란 컴퓨팅 파워(CPU, RAM, Network Speeds, Storage OS 소프트웨어)를 물리적인 설치 보다는 네트워크를 이용해서 고객에게 배달해주는 것이다.(AWS, Azure, Google Cloud가 대표적임)
+클라우드 컴퓨팅을 쉽게 설명하자면 당신이 버스나 기차를 통해 여행을 떠날 때, 당신은 도착지에 해당하는 티켓을 구매하고 도착지에 도착 할 때까지 좌석에 앉는다 마찬가지로 다른 승객도 똑같이 표를 구매하고 같은 버스 좌석에 앉는다.
+그렇다고 다른 승객이 당신의 여행을 방해 하는 건 아니다. 그리고 당신은 도착지에 도착하면 운전기사에게 감사를 표하고 버스에서 내린다.</description>
+    </item>
+    
+  </channel>
+</rss>

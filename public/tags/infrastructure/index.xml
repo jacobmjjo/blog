@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>infrastructure on josephmjjo</title>
+    <link>https://josephmjjo.github.io/tags/infrastructure/</link>
+    <description>Recent content in infrastructure on josephmjjo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Tue, 25 Feb 2020 22:58:28 +0900</lastBuildDate><atom:link href="https://josephmjjo.github.io/tags/infrastructure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>컴퓨터 기본 부품</title>
+      <link>https://josephmjjo.github.io/blog/component_of_computer/</link>
+      <pubDate>Tue, 25 Feb 2020 22:58:28 +0900</pubDate>
+      
+      <guid>https://josephmjjo.github.io/blog/component_of_computer/</guid>
+      <description>CPU CPU는 컴퓨터의 뇌로 컴퓨터에서 가장 중요한 부품이라고 생각하면 된다. 대부분의 연산을 필요로 하는 작업은 CPU가 한다고 생각하면 된다.
+RAM RAM은 임시적인 메모리 저장소로 액세스가 굉장히 빠르다 cpu는 저장소가 아니기에 연산에 필요한 데이터를 저장하면서 연산하기는 힘들다 그래서 연산에 필요한 데이터를 저장하는 용도로 사용하는 부품이 RAM이다. 단점은 전기가 흐르지 않으면 데이터가 바로 사라지는 단점이 있다.
+하드디스크 하드디스크는 오랫동안 데이터를 저장하고 싶을때 쓰는 저장소로 전기가 흐르지 않아도 데이터가 저장이 되어있다.
+대역 대역이란 데이터 전송능력을 의미한다.</description>
+    </item>
+    
+  </channel>
+</rss>
