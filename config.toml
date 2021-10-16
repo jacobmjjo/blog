@@ -48,12 +48,23 @@ googleAnalytics = "UA-131460634-1"
 # vendor script in layouts/blog/single.html.
 [markup]
   [markup.highlight]
+    anchorLineNos = false
     codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = 'pygments'
+    tabWidth = 4
     
   # Set to false to disallow raw HTML in markdown files
   [markup.goldmark.renderer]
-      unsafe = true
-
+    endLevel = 3
+    ordered = false
+    startLevel = 2
 # Controls the navigation
 [[menu.main]]
   identifier = "about"
