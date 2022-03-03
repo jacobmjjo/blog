@@ -10,7 +10,7 @@ math: false
 toc: false
 ---
 
-# traceroute와 ping 차이
+# traceroute와 ping 그리고
 
 Date: February 23, 2022
 
@@ -28,7 +28,7 @@ Date: February 23, 2022
 
 근데 찾아보니 두가지 타입이 있다네 하나는 type8(Echo Request) 또 다른 하나는 type0(Echo Reply)이다. 하나는 물어보는 거고 다른 하나는 답해주는 거다.
 
-![출처: [https://www.geeksforgeeks.org/ping-in-c/](https://www.geeksforgeeks.org/ping-in-c/)](/static/img/traceroute_ping_netstat/Untitled.png)
+![출처: [https://www.geeksforgeeks.org/ping-in-c/](https://www.geeksforgeeks.org/ping-in-c/)](/img/traceroute_ping_netstat/Untitled.png)
 
 출처: [https://www.geeksforgeeks.org/ping-in-c/](https://www.geeksforgeeks.org/ping-in-c/)
 
