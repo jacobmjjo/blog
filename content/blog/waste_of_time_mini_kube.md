@@ -50,7 +50,7 @@ helm install stable/prometheus
 
 프로메테우스 서버가 먹통일것이다.
 
-![/img/prometheus_error.png](/img/prometheus_error.png)
+![/img/prometheus_error.png](/img/waste_of_time_mini_kube/prometheus_error.png)
 
 이 경우에는 디플로이먼트로 확인하고  아래 이미지의 영역의 fsGroup 와 runAsGroup 그리고 runUser 값을 변경한다.
 
@@ -59,7 +59,7 @@ kubectl get deployment
 kubectl edit deploy [프로메테우스 서버 디플로이먼트 이름]
 ```
 
-![/img/kubectl_edit_deploy.png](/img/kubectl_edit_deploy.png)
+![/img/kubectl_edit_deploy.png](/img/waste_of_time_mini_kube/kubectl_edit_deploy.png)
 
 또 다른 방법으로는 네임 스페이스를 monitoring으로 하고 다운 받을 프로그램은 stable/prometheus로 한다.
 
