@@ -36,6 +36,8 @@ Ikev2가 8.6버전에서 안되는 이유는 정확하게는 찾지 못했고 �
 
 로그 보는 방식은 아래 링크로 들어가면 된다.
 
+[로그 보는 법](https://josephmjjo.github.io/blog/azure_vpn_log_review/)
+
 Azure의 로그를 살펴보니 Qm packet을 계속해서 보내고 있다.
 
 ![Untitled](/img/sucess_vpn_connect/Untitled.png)
