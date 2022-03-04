@@ -1,5 +1,5 @@
 ---
-title: "Traceroute Ping and Netstat"
+title: "traceroute와 ping 그리고 netstat"
 date: 2022-02-23T17:49:59+09:00
 slug: ""
 description: ""
@@ -10,13 +10,11 @@ math: false
 toc: false
 ---
 
-# traceroute와 ping 그리고
 
-Date: February 23, 2022
-
-[Ping, traceroute, and netstat: The network troubleshooting trifecta](https://www.redhat.com/sysadmin/ping-traceroute-netstat)
 
 네크워크 문제시 원인 파악을 위해 사용하는 도구를 살펴보다가 좋은 블로그 글이 있어 번역 및 요약을 했다
+
+[Ping, traceroute, and netstat: The network troubleshooting trifecta](https://www.redhat.com/sysadmin/ping-traceroute-netstat)
 
 제목에서 언급한 세가지 툴은 보통 네트워크 문제가 생길때 통신이 잘되고 있는지 아닌지 많이 사용한다. 
 

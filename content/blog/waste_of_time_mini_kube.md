@@ -5,7 +5,7 @@ slug: ""
 description: ""
 keywords: []
 draft: true
-tags: []
+tags: ["Kubernetes"]
 math: false
 toc: false
 ---
