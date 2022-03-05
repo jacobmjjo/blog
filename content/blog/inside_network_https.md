@@ -68,7 +68,7 @@ SSL 인증서 구성은 세가지로
 
 말 그대로 싸인을 사슬처럼 계속해서 해주면서 권한을 부여 할 수 있다는 것이다.
 
-아래 그림을 보면 가장 위가 Root이고 가운데가 중개 인증서 최하단이 url 인증서다
+아래 그림을 보면 가장 위가 Root이고 가운데가 중개 인증서, 최하단이 url 인증서다
 
 ![Untitled](/img/inside_network_https/Untitled.png)
 
