@@ -30,7 +30,7 @@ LB는 구조상 타겟 그룹과 연결되는데 문제는 기존의 타겟 그�
 
 [Application Load Balancer를 사용하여 호스트 기반 라우팅 설정](https://aws.amazon.com/ko/premiumsupport/knowledge-center/elb-configure-host-based-routing-alb/)
 
-저 로드밸런서에 들어올 때 주소가 o365m.lottehotel.com이면 443으로 따로 만든 타겟 그룹으로 보내는 것이다.
+저 로드밸런서에 들어올 때 주소가 특정 도메민이면 (예를 들어 www.example.com) 443으로 따로 만든 타겟 그룹으로 보내는 것이다.
 
 ![Untitled](/img/lb_443_TG/Untitled.png)
 
