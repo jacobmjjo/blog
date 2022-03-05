@@ -16,15 +16,12 @@ toc: false
 
 아직 확정은 된건 아니고 추후 적용할 경우를 대비하여 예습했다. 그렇기에 딱 Powershell 연습용으로만 적었다.
 
-우선 참고한 링크는 3개다(cisco asa 연결 기준.)
+하단의 링크는 참고한 링크다.
 
 powershell로 vpn 정책기반 설정
 
 [S2S VPN 및 VNet 간 연결을 위한 IPsec/IKE 정책: PowerShell - Azure VPN Gateway](https://docs.microsoft.com/ko-kr/azure/vpn-gateway/vpn-gateway-ipsecikepolicy-rm-powershell)
 
-cisco 설정 방법 without vti
-
-[Sample configuration for connecting Cisco ASA devices to VPN gateways - Azure VPN Gateway](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-3rdparty-device-config-cisco-asa)
 
 우선 Powershell에서 유용하게 쓰기 위해서는 powershell을 쓸 수 있는 환경을 가지고 있어야 한다.
 
