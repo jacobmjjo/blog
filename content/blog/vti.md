@@ -46,3 +46,5 @@ Adsm을 이용한 vti 설정 방법 1
 [Azure: Site-to-Site VPN with a Cisco ASA using ASDM](https://geekshangout.com/azure-site-to-site-vpn-with-a-cisco-asa-using-asdm/)
 
 [Azure에 대한 ASA IPsec VTI 연결 구성](https://www.cisco.com/c/ko_kr/support/docs/security/adaptive-security-appliance-asa-software/214109-configure-asa-ipsec-vti-connection-to-az.html)
+
+[샘플 구성: Cisco ASA 디바이스(IKEv2/BGP 아님)](https://docs.microsoft.com/ko-kr/azure/vpn-gateway/vpn-gateway-3rdparty-device-config-cisco-asa)
