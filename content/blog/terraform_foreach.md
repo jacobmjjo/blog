@@ -1,5 +1,5 @@
 ---
-title: "테라폼 vpc 및 서브넷 모듈화 for each 사용하기"
+title: "테라폼 vpc 및 서브넷 모듈화, for each 사용하기"
 date: 2022-02-06T18:32:03+09:00
 slug: ""
 description: ""
@@ -101,7 +101,7 @@ variable "azurerm_virtual_network_name" {
 
 variable "azurerm_subnet" {
   description = "The subnet list of subnets"
-  **type = map(any)**
+  type = map(any)
 }
 ```
 
@@ -129,7 +129,7 @@ module "m365" {
   resource_group_name = data.{리소스그룹이름}.name
   resource_group_location = data.리소스그룹이름}.location
   azurerm_virtual_network_name = data.azurerm_virtual_network.{Vnet 이름}.name
-  **azurerm_subnet = var.azurerm_subnet**
+  azurerm_subnet = var.azurerm_subnet
   
 }
 ```
