@@ -3,9 +3,9 @@ title: "AWS 504 에러"
 date: 2021-05-24T23:40:51+09:00
 slug: ""
 description: ""
-keywords: ["Management"]
+keywords: ["Error"]
 draft: true
-tags: ["Cloud"]
+tags: ["Cloud","Network","Loadbalancer"]
 math: false
 toc: false
 ---

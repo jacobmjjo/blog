@@ -1,6 +1,6 @@
 ---
 title: "Azure VPN 정책기반과 경로 기반"
-date: 2022-03-01T22:05:44+09:00
+date: 2022-03-03T22:05:44+09:00
 slug: ""
 description: ""
 keywords: ["VPN"]
