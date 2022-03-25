@@ -1,5 +1,5 @@
 ---
-title: "USE MODE"
+title: "USE Method"
 date: 2020-12-01T21:53:24+09:00
 slug: ""
 description: ""

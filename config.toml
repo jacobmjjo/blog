@@ -62,7 +62,7 @@ googleAnalytics = "UA-131460634-1"
     
   # Set to false to disallow raw HTML in markdown files
   [markup.goldmark.renderer]
-    endLevel = 3
+    endLevel = 4
     ordered = false
     startLevel = 2
 # Controls the navigation
