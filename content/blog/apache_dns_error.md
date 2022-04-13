@@ -24,8 +24,7 @@ toc: false
 그래도 해당 주소가 서브넷 대역대 안에 있으니 서브넷 안에서의 ip 주소가 원인인 것만은 분명하다.  
 다른 분께서 해당 문제 관해 구글링을 해 본 결과 우리와 동일한 문제를 해결한 글을 찾아낼 수 있었다.  
 
-(해당 블로그 저자님 너무 감사합니다.)
-
+(해당 블로그 저자님 너무 감사합니다.)  
 [AWS를 사용하면서 겪은 트러블슈팅 (DNS 기반 HA 관련 이슈)](http://dveamer.github.io/backend/TroubleshootingDNSHAOnAWS.html)
 
 블로그 글에 의하면 **아파치가 제공하는 DNS 관리 기능이 원인**이었다.  
@@ -33,8 +32,7 @@ toc: false
 서버 문제 생겼다고 해당 ip를 갖다 버리면 복구 됐을 때도 못쓰니 너무 아깝지 않은가.  
 근데 이게 오히려 엉뚱하게도 AWS ALB와 다른 과거에 사용했던 ip를 가져오게 하는 것이라고 한다.(왜?)  
 
-(암튼 이걸 어떻게 찾으신거지??? 대충 이건가? )
-
+(암튼 이걸 어떻게 찾으신거지??? 대충 이건가? )  
 [The Apache Tomcat Connectors - Reference Guide](https://tomcat.apache.org/connectors-doc/reference/workers.html)
 
 해당 블로그에서는 여러가지 해결책을 제시 하였는데 우리는 NLB로 교체하는 것으로 문제를 해결했다.  
