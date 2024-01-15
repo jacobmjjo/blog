@@ -1,10 +1,10 @@
 # DO NOT REMOVE THIS
-theme = "hugo-theme-codex" 
-
+#theme = "hugo-theme-codex" 
+theme = "ananke"
 # Override these settings with your own
-title = "josephmjjo"
+title = "jacobmjjo"
 languageCode = "en-us"
-baseURL = "https://josephmjjo.github.io/"
+baseURL = "https://jacobmjjo.github.io/"
 copyright = "© {year}"
 
 # Add your Disqus shortname here.
@@ -26,7 +26,7 @@ googleAnalytics = "UA-131460634-1"
   # mastodon = "https://mastodon.social/@nickname"
   # facebook = "https://facebook.com/<your handle>"
   # gitlab = "https://gitlab.com/<your handle>"
-  instagram = "https://instagram.com/joseph_mjjo"
+  instagram = "https://instagram.com/jacob_mjjo"
   linkedin = "https://www.linkedin.com/in/myeongjang-jo-1bb44a159/"
   # youtube = "https://www.youtube.com/channel/<your channel>"
   
